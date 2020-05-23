@@ -1,0 +1,14 @@
+IF  [Country Name]=="Afghanistan" THEN    0
+ELSEIF [Country Name]=="Armenia" THEN  (ZN([2019])+ZN([2018])) / ( ZN([2019]/[2019]) + ZN([2018]/[2018])    )
+ELSEIF [Country Name]=="Bosnia and Herzegovina" THEN  (ZN([1999])+ZN([2000])+ZN([2001])+ZN([2002]) +ZN([2003])   ) / ( ZN([1999]/[1999]) + ZN([2000]/[2000]) + ZN([2001]/[2001]) + ZN([2002]/[2002]) + ZN([2003]/[2003])      )
+ELSEIF [Country Name]=="Croatia" THEN  (ZN([1998])+ZN([1999])+ZN([2000]) +ZN([2001]) +ZN([2002])  ) / ( ZN([1998]/[1998]) + ZN([1999]/[1999]) + ZN([2000]/[2000]) + ZN([2001]/[2001]) + ZN([2002]/[2002])    )
+ELSEIF [Country Name]=="Georgia" THEN  (ZN([2009])+ZN([2010])+ZN([2011]) +ZN([2012]) +ZN([2013])   ) / ( ZN([2009]/[2009]) + ZN([2010]/[2010]) + ZN([2011]/[2011]) + ZN([2013]/[2012]) + ZN([2013]/[2013])      )
+ELSEIF [Country Name]=="Ireland" THEN  (ZN([2017])+ZN([2018])+ZN([2019])) / ( ZN([2017]/[2017]) + ZN([2018]/[2018]) + ZN([2019]/[2019])   )
+ELSEIF [Country Name]=="Kosovo" THEN  (ZN([2017])+ZN([2018])+ZN([2019])) / ( ZN([2017]/[2017]) + ZN([2018]/[2018]) + ZN([2019]/[2019])   )
+ELSEIF [Country Name]=="Moldova" THEN  (ZN([2019])+ZN([2018])) / ( ZN([2019]/[2019]) + ZN([2018]/[2018])    )
+ELSEIF [Country Name]=="North Macedonia" THEN  (ZN([2002])+ZN([2003])+ZN([2004])+ZN([2005])+ZN([2006])) / ( ZN([2002]/[2002]) + ZN([2003]/[2003])+ ZN([2004]/[2004])+ ZN([2005]/[2005])+ ZN([2006]/[2006])    )
+ELSEIF [Country Name]=="Russian Federation" THEN  (ZN([1998])+ZN([1999])+ZN([2000])+ZN([2001])+ZN([2002])) / ( ZN([1998]/[1998]) + ZN([1999]/[1999]) + ZN([2000]/[2000]) + ZN([2001]/[2001]) + ZN([2002]/[2002])    )
+ELSEIF [Country Name]=="Slovenia" THEN  (ZN([1992])+ZN([1993])+ZN([1994])+ZN([1995])+ZN([1996])) / ( ZN([1992]/[1992]) + ZN([1993]/[1993])+ ZN([1994]/[1994])+ ZN([1995]/[1995])+ ZN([1996]/[1996])    )
+ELSEIF [Country Name]=="Spain" THEN  (ZN([2012])+ZN([2013])+ZN([2014])+ZN([2015])+ZN([2016])) / ( ZN([2012]/[2012]) + ZN([2013]/[2013]) + ZN([2014]/[2014])+ ZN([2015]/[2015])+ ZN([2016]/[2016])   )
+ELSEIF [Country Name]=="Tajikistan" THEN  (ZN([1998])+ZN([1999])+ZN([2000])+ZN([2001])+ZN([2002])) / ( ZN([1998]/[1998]) + ZN([1999]/[1999]) + ZN([2000]/[2000]) + ZN([2001]/[2001]) + ZN([2002]/[2002])    )
+ELSEIF [Country Name]=="Ukraine" THEN  0     END
